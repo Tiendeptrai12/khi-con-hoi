@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <meta name="color-scheme" content="light dark" />
+    <script>
+      try {
+        var t = localStorage.getItem('kch_theme_v1');
+        if (t === 'light' || t === 'dark') {
+          document.documentElement.dataset.theme = t;
+          var mc = document.querySelector('meta[name="color-scheme"]');
+          if (mc) mc.setAttribute('content', t);
+        }
+        var fs = localStorage.getItem('kch_font_scale_v1');
+        if (fs === 'normal' || fs === 'large' || fs === 'xlarge') {
+          document.documentElement.dataset.fontScale = fs;
+        }
+      } catch (e) {}
+    </script>
+    <meta name="theme-color" content="#FFFFFF" />
+    <meta
+      name="description"
+      content="Khi Con Hỏi — Cẩm nang 60 giây, nút dừng 15 giây hạ nhiệt, chăm sóc sức khỏe thể chất & tâm lý tuổi 11–14 và kết nối đầu mối 111/113 miễn phí."
+    />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Khi Con Hỏi" />
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Lora:ital,wght@0,500;0,600;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Khi Con Hỏi — Đồng hành cùng cha mẹ tuổi 11–14</title>
+    <script type="module" crossorigin src="./assets/index-B3pPUjMX.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-DJYTKJHj.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

@@ -1,0 +1,35 @@
+{
+  "id": "/khi-con-hoi/",
+  "name": "Khi Con Hỏi — Đồng hành cùng cha mẹ tuổi dậy thì",
+  "short_name": "Khi Con Hỏi",
+  "description": "Cẩm nang xử lý 60 giây, nút dừng 15 giây hạ nhiệt, chăm sóc sức khỏe thể chất & tâm lý tuổi 11–14 và kết nối đầu mối bảo vệ trẻ em miễn phí.",
+  "lang": "vi",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FAF7F2",
+  "theme_color": "#1B4D3E",
+  "categories": ["education", "medical", "lifestyle"],
+  "icons": [
+    {
+      "src": "./icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
